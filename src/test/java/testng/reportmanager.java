@@ -24,7 +24,7 @@ public class reportmanager  implements ITestListener{
 		sparkreporter.config().setTheme(Theme.DARK);
 		 extent=new ExtentReports();
 		 extent.attachReporter(sparkreporter);
-		extent.setSystemInfo("computer name","localhost");
+		extent.setSystemInfo("computer name","localhost"); 
 		extent.setSystemInfo("Environment","QA");
 		extent.setSystemInfo("tester name","swe");
 		extent.setSystemInfo("os","Windows10");

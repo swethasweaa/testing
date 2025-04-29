@@ -1,5 +1,5 @@
 package dockersample;
-
+import org.openqa.selenium.*;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
@@ -47,9 +47,14 @@ public class docker1 {
 	void alert() throws InterruptedException {
 		Thread.sleep(5000);
 		Actions acts=new Actions(driver);
+		//WebElement name1=driver.findElement(By.xpath("//*[@id=\"phone\"]"));
+		//acts.moveToElement(name1).sendKeys("3848785745").perform();
+//		WebElement clk=driver.findElement(By.xpath("//*[@id=\"HTML5\"]/div[1]/button"));
+//		acts.moveToElement(clk).click().build().perform();
+		
 		WebElement alt=driver.findElement(By.xpath("//*[@id=\"alertBtn\"]"));
 		Thread.sleep(4000);
-	   acts.moveToElement(alt).click().build().perform();
+	    acts.moveToElement(alt).click().build().perform();
 		driver.switchTo().alert().accept();
 	}
 	@AfterMethod

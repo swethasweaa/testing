@@ -24,7 +24,7 @@ public class excercise {
 	{
 		Excercise1 ex=new Excercise1(driver);
 		ex.user_method("standard_user");
-		ex.pwd("secret_sauce");
+		ex.pwd("secret_sauce"); 
 		ex.login_btn_method();
 		
 	}

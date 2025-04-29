@@ -1,5 +1,4 @@
-package testng;
-
+package practice;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
@@ -7,7 +6,7 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-public class creation {
+public class datadrivencreation {
 	
 	public static void main(String[] args) throws IOException {
 		
@@ -42,3 +41,96 @@ public class creation {
 	}
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//import java.io.FileInputStream;
+//import java.io.IOException;
+//import java.util.Properties;
+//public class datadrivencreation {
+//
+//
+//			public static void main(String[] args) throws IOException {
+//				
+//				FileInputStream file=new FileInputStream(System.getProperty("user.dir")+"\\data\\setupp.properties");
+//				//load the properties file
+//				Properties propertiesobj=new Properties();
+//				propertiesobj.load(file);
+//				
+//				//read the data which is given in the file
+//				String val1=propertiesobj.getProperty("sampleurl");
+//				String val2=propertiesobj.getProperty("navbar1");
+//				String val3=propertiesobj.getProperty("navbar2");
+//				String val4=propertiesobj.getProperty("navbar3");
+//				String val5=propertiesobj.getProperty("navbar4");
+//				
+//				System.out.println(val1+"\n"+val2+"\n"+val3+"\n"+val4);
+//				//
+//				//System.out.println(propertiesobj.stringPropertyNames());
+//				System.out.println(propertiesobj.keySet());
+//				System.out.println(propertiesobj.values());
+//			}
+//
+//		}
+//
+//	}
+//
+//}
